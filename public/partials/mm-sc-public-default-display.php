@@ -25,7 +25,7 @@ You are already logged in! Need to log out? You can do that <a title="Log out" h
 
 [MM_Form_Message type='error']
 [MM_Form_Message type='success']
-<h1>Login <a class="login-form-title" href="/join">Sign Up</a></h1>
+<h1>Login <a class="login-form-title" href="<?php echo $atts['url']; ?>">Sign Up</a></h1>
 <div class="inset">
 <p class="login-form-label">EMAIL ADDRESS</p>
 [MM_Form_Field name='username']
