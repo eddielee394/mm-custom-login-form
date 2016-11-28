@@ -113,6 +113,7 @@ function mm_form_shortcode( $atts, $content = null ) {
 	$atts = shortcode_atts(
 		array(
 			'form' => 'default',
+			'url'  => '/join'
 		),
 		$atts
 	);

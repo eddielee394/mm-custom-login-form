@@ -17,7 +17,7 @@
 <ul class="tab-group">
 [MM_Member_Decision isMember='false']
  	<li class="tab active"><a href="#login">Log In</a></li>
- 	<li class="tab"><a href="">Sign Up</a></li>
+ 	<li class="tab"><a href="<?php echo $atts['url']; ?>">Sign Up</a></li>
 [/MM_Member_Decision]
 [MM_Member_Decision isMember='true']
  	<li class="tab"><a href="">Upgrade</a></li>
