@@ -214,14 +214,7 @@
 
 .red-form .inset {
     padding: 20px;
-    border-top: 1px solid #000;
-}
-
-.red-form .login-form h1 {
-    text-align: center;
-    padding: 18px 0;
-    border-bottom: 1px solid #000;
-    position: relative;
+    border-top: 1px solid rgba(189, 186, 186, 0.40);
 }
 
 .red-form .login-form h1:after {
@@ -246,6 +239,7 @@
     padding: 18px 0;
     border-bottom: 1px solid #000;
     position: relative;
+	margin-bottom: 0; 
 }
 
 .red-form .login-form h1 span a {
@@ -271,10 +265,11 @@
 }
 
 .red-form .login-form-label {
-    color: rgba(137, 192, 243, 0.8);
+    color: #f7f7f7;
     display: block;
     font-size: 13px;
     padding-bottom: 9px;
+	margin-bottom: 0; 
 }
 
 .red-form input[type=text],

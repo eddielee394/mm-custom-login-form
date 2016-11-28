@@ -118,15 +118,15 @@ function mm_form_shortcode( $atts, $content = null ) {
 	);
 	if ($atts['form'] == 'blue') {
 		ob_start();
-		include (plugin_dir_path( __FILE__ ) . '\partials\mm-sc-public-blue-display.php');
+		include (plugin_dir_path( __FILE__ ) . 'partials/mm-sc-public-blue-display.php');
 		$content = ob_get_clean();
 	} elseif ($atts['form'] =='red') {
 		ob_start();
-		include (plugin_dir_path( __FILE__ ) . '\partials\mm-sc-public-red-display.php');
+		include (plugin_dir_path( __FILE__ ) . 'partials/mm-sc-public-red-display.php');
 		$content = ob_get_clean();
 	} else {
 		ob_start();
-		include (plugin_dir_path( __FILE__ ) . '\partials\mm-sc-public-default-display.php');
+		include (plugin_dir_path( __FILE__ ) . 'partials/mm-sc-public-default-display.php');
 		$content = ob_get_clean();
 	}
 	
