@@ -385,55 +385,55 @@
 @media only screen and (max-width:1440px) {
     .red-form .main {
         margin: 1em auto 0;
-        width: 24%;
+        width: 50%;
     }
 }
 
 @media only screen and (max-width:1366px) {
     .red-form .main {
         margin: 1em auto 0;
-        width: 25%;
+        width: 50%;
     }
 }
 
 @media only screen and (max-width:1280px) {
     .red-form .main {
         margin: 1em auto 0;
-        width: 27%;
+        width: 50%;
     }
 }
 
 @media only screen and (max-width:1024px) {
     .red-form .main {
         margin: 1em auto 0;
-        width: 33%;
+        width: 60%;
     }
 }
 
 @media only screen and (max-width:768px) {
     .red-form .main {
         margin: 1em auto 0;
-        width: 43%;
+        width: 85%;
     }
 }
 
 @media only screen and (max-width:640px) {
     .red-form .main {
         margin: 1em auto 0;
-        width: 51%;
+        width: 95%;
     }
 }
 
 @media only screen and (max-width:480px) {
     .red-form .main {
         margin: 1em auto 0;
-        width: 68%;
+        width: 95%;
     }
 }
 
 @media only screen and (max-width:320px) {
     .red-form .main {
         margin: 1em auto 0;
-        width: 96%;
+        width: 95%;
     }
 }
