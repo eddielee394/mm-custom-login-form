@@ -16,7 +16,7 @@
  * Plugin Name:       Membermouse Shortcode
  * Plugin URI:        http://tutorialonline.net/
  * Description:       Login form shortcode for Membermouse
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            Yamen Shahin
  * Author URI:        http://tutorialonline.net/
  * License:           GPL-2.0+
